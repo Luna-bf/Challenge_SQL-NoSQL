@@ -5,7 +5,7 @@ CREATE TABLE livres;
 
 -- 2. Insertion des données (INSERT)
 INSERT INTO livres (titre, auteur, prix, annee_publication) VALUES
-    ('Elle s\'appelait Sarah ', 'Tatiana de Rosnay', 19.00, '2007'),
+    ('Elle s\'appelait Sarah', 'Tatiana de Rosnay', 19.00, '2007'),
     ('La quatrième apprentie', 'Erin Hunter', 8.10, '2009'),
     ('Les Malheurs de Sophie', 'La Comtesse de Ségur', 14.50, '1858'),
     ('Croc-Blanc', 'Jack London', 4.95, '1906'),
