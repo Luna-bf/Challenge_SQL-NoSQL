@@ -1,6 +1,8 @@
 -- 1. Création de la base de données et de sa table (CREATE)
 CREATE DATABASE boutique_livres_db;
 
+CREATE TABLE livres;
+
 -- 2. Insertion des données (INSERT)
 INSERT INTO livres (titre, auteur, prix, annee_publication) VALUES
     ('Elle s\'appelait Sarah ', 'Tatiana de Rosnay', 19.00, '2007'),
