@@ -31,4 +31,4 @@ FROM livres
 WHERE prix > 20.00;
 
 -- Écrivez et exécutez la requête SQL pour trouver le nombre total de livres écrits par un auteur spécifique de votre choix.
-SELECT COUNT(*) AS nombre_total_livres FROM `livres` WHERE auteur = 'Julia Quinn';
+SELECT COUNT(*) AS nombre_total_livres FROM livres WHERE auteur = 'Julia Quinn';
